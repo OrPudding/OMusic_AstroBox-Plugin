@@ -1,9 +1,11 @@
 {
-  "name": "astrobox-plugin-template",
+  "name": "omusic-helper",
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "rspack build"
+    "build": "rspack build",
+    "zip": "cd dist && zip -r ../OMusic-Helper.abp . && cd ..",
+    "package": "npm run build && npm run zip"
   },
   "devDependencies": {
     "@rspack/cli": "^1.4.6",
