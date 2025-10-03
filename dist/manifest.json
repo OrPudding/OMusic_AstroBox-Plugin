@@ -1,0 +1,17 @@
+{
+  "name": "OMusic同步Cookie工具",
+  "version": "1.0.0",
+  "author": "OrPudding",
+  "description": "OMusic Cookie 导入工具。为 OMusic 手表端同步网易云音乐登录凭证。",
+  "website": "https://github.com/OrPudding/OMusic_AstroBox-Plugin",
+  "icon": "icon.png",
+  "entry": "main.js",
+  "api_level": 1,
+  "permissions": [
+    "lifecycle",
+    "ui",
+    "native",
+    "interconnect",
+    "config"
+  ]
+}
